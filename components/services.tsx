@@ -1,57 +1,58 @@
 "use client"
 
 import Image from "next/image"
+import { useState, useEffect } from "react"
 
 const services = [
   {
     title: "Lajes Treliçadas H8 H12 H16",
     description: "Lajes treliçadas de alta resistência para todos os tipos de construção.",
-    image: "/images/lajes-trelicadas-real.jpeg",
+    images: ["/images/lajes-trelicadas-real.jpeg"],
   },
   {
     title: "Escadas Pré-moldadas",
     description: "Escadas pré-moldadas de todos os modelos com corrimão tubular galvanizado.",
-    image: "/images/escada-corrimao-tubular.jpeg",
+    images: ["/images/escada-corrimao-tubular.jpeg"],
   },
   {
     title: "Escadas em Alvenaria",
     description: "Escada em alvenaria de alto padrão com LED embutido.",
-    image: "/images/escada-alvenaria-led.jpeg",
+    images: ["/images/escada-alvenaria-led.jpeg"],
   },
   {
     title: "Revestimentos de Escada",
     description: "Acabamento premium com porcelanato e granito de alta qualidade.",
-    image: "/images/escada-porcelanato-real.jpeg",
+    images: ["/images/escada-porcelanato-real.jpeg"],
   },
   {
     title: "Corrimãos de Vidro, Aço Inox e Tubulares Galvanizados",
     description: "Corrimãos de vidro, aço inox e tubulares galvanizados para sua escada.",
-    image: "/images/escada-viga-central-real.jpeg",
+    images: ["/images/corrimao-vidro-real.jpeg", "/images/corrimao-inox-real.jpeg"],
   },
   {
     title: "Churrasqueiras de Tijolinho",
     description: "Churrasqueiras de tijolinho com área gourmet completa.",
-    image: "/images/churrasqueira-gourmet-real.jpeg",
+    images: ["/images/churrasqueira-gourmet-real.jpeg"],
   },
   {
     title: "Churrasqueiras Pré-moldadas",
     description: "Churrasqueira pré-moldada marmorizada com soleira de granito.",
-    image: "/images/churrasqueira-premoldada-marmorizada.jpeg",
+    images: ["/images/churrasqueira-premoldada-marmorizada.jpeg"],
   },
   {
     title: "Grades de Cimento",
     description: "Grades e balaústres pré-moldados com acabamento impecável.",
-    image: "/images/grades-balaustres-real.jpeg",
+    images: ["/images/grades-balaustres-real.jpeg"],
   },
   {
     title: "Grades de Caixa d'Água",
     description: "Estruturas robustas e seguras para suporte de caixa d'água.",
-    image: "/images/base-caixa-dagua-real.jpeg",
+    images: ["/images/base-caixa-dagua-real.jpeg"],
   },
   {
     title: "Cruzeta (Pés da Base)",
     description: "Cruzetas pré-moldadas para sustentação de estruturas.",
-    image: "/images/cruzeta-base-real.jpeg",
+    images: ["/images/cruzeta-base-real.jpeg"],
   },
 ]
 
@@ -60,6 +61,46 @@ function generateWhatsAppLink(productName: string) {
     `Olá, vim pelo site da LB PRÉ MOLDADOS e gostaria de solicitar um orçamento de ${productName}.`
   )
   return `https://wa.me/5511965452017?text=${message}`
+}
+
+function ImageCarousel({ images, alt }: { images: string[]; alt: string }) {
+  const [currentIndex, setCurrentIndex] = useState(0)
+
+  useEffect(() => {
+    if (images.length <= 1) return
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % images.length)
+    }, 3000)
+    return () => clearInterval(interval)
+  }, [images.length])
+
+  return (
+    <>
+      {images.map((img, idx) => (
+        <Image
+          key={idx}
+          src={img}
+          alt={`${alt} ${idx + 1}`}
+          fill
+          className={`object-cover transition-opacity duration-700 group-hover:scale-105 ${
+            idx === currentIndex ? "opacity-100" : "opacity-0"
+          }`}
+        />
+      ))}
+      {images.length > 1 && (
+        <div className="absolute bottom-16 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
+          {images.map((_, idx) => (
+            <span
+              key={idx}
+              className={`h-1.5 w-1.5 rounded-full transition-colors ${
+                idx === currentIndex ? "bg-primary" : "bg-white/50"
+              }`}
+            />
+          ))}
+        </div>
+      )}
+    </>
+  )
 }
 
 export function Services() {
@@ -93,12 +134,7 @@ export function Services() {
               rel="noopener noreferrer"
               className="group relative overflow-hidden rounded-sm cursor-pointer aspect-[4/3] border border-border hover:border-primary transition-colors duration-300"
             >
-              <Image
-                src={service.image}
-                alt={service.title}
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-700"
-              />
+              <ImageCarousel images={service.images} alt={service.title} />
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/70 to-transparent" />
               {/* Border accent on hover */}

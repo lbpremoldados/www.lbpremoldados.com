@@ -15,8 +15,8 @@ const services = [
     images: ["/images/escada-corrimao-tubular.jpeg"],
   },
   {
-    title: "Escadas em Alvenaria",
-    description: "Escada em alvenaria de alto padrão com LED embutido.",
+    title: "Escadas Alto Padrão",
+    description: "Escadas de alto padrão com LED embutido e acabamento premium.",
     images: ["/images/escada-alvenaria-led.jpeg"],
   },
   {

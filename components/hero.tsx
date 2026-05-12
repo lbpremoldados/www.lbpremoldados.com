@@ -33,7 +33,7 @@ export function Hero() {
           {/* Title */}
           <h1 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-foreground text-balance">
             Há empresas que vendem concreto.{" "}
-            <span className="text-primary">A LB Pré Moldados</span> transforma concreto em estrutura, sonho e legado.
+            <span className="text-primary">A LB PRÉ MOLDADOS</span> transforma concreto em estrutura, sonho e legado.
           </h1>
 
           {/* Subtitle */}

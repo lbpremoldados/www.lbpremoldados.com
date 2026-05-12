@@ -34,7 +34,7 @@ export function Header() {
         <div className="hidden xl:flex items-center flex-1 mx-6">
           <div className="flex items-center gap-4 w-full">
             <span className="text-sm font-semibold tracking-widest uppercase text-foreground whitespace-nowrap">
-              LB <span className="text-primary">PRÉ MOLDADOS</span>
+              LB PRÉ - <span className="text-primary">MOLDADOS</span>
             </span>
             <span className="h-px flex-1 bg-primary/20"></span>
             <span className="h-1.5 w-1.5 rounded-full bg-primary/60"></span>

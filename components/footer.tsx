@@ -10,16 +10,16 @@ export function Footer() {
           <div>
             <div className="mb-4">
               <Image
-                src="/images/logo.jpeg"
-                alt="LB Pré Moldados LTDA - Desde 1998"
-                width={180}
-                height={68}
-                className="h-16 w-auto object-contain"
+                src="/images/logo-new.jpeg"
+                alt="LB Pré Moldados - Desde 1998 - 25 anos construindo sonhos no seu lar"
+                width={240}
+                height={80}
+                className="h-20 w-auto object-contain"
               />
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Desde 1998 entregando soluções estruturais que unem resistência,
-              elegância e exclusividade.
+              Há mais de 25 anos no mercado, somos referência na fabricação de 
+              peças pré-moldadas de concreto com qualidade e resistência.
             </p>
             <p className="text-xs text-muted-foreground/60 mt-3">
               CNPJ: 64.736.646/0001-14

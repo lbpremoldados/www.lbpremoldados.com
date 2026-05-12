@@ -21,17 +21,17 @@ export function Header() {
         {/* Logo */}
         <a href="#" className="flex items-center">
           <Image
-            src="/images/logo.jpeg"
-            alt="LB Pré Moldados LTDA - Desde 1998"
-            width={160}
-            height={60}
-            className="h-12 w-auto object-contain"
+            src="/images/logo-new.jpeg"
+            alt="LB Pré Moldados - Desde 1998 - 25 anos construindo sonhos no seu lar"
+            width={280}
+            height={70}
+            className="h-14 w-auto object-contain"
             priority
           />
         </a>
 
         {/* Decorative line left */}
-        <div className="hidden lg:flex items-center flex-1 mx-6">
+        <div className="hidden xl:flex items-center flex-1 mx-6">
           <div className="flex items-center gap-2">
             <span className="h-px w-8 bg-gradient-to-r from-transparent to-primary/40"></span>
             <span className="h-1.5 w-1.5 rounded-full bg-primary/60"></span>
@@ -40,7 +40,7 @@ export function Header() {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-8" aria-label="Navegação principal">
+        <nav className="hidden xl:flex items-center gap-8" aria-label="Navegação principal">
           {navLinks.map((link) => (
             <a
               key={link.label}
@@ -53,7 +53,7 @@ export function Header() {
         </nav>
 
         {/* Decorative line right */}
-        <div className="hidden lg:flex items-center flex-1 mx-6">
+        <div className="hidden xl:flex items-center flex-1 mx-6">
           <div className="flex items-center gap-2 w-full justify-end">
             <span className="h-px flex-1 bg-primary/20"></span>
             <span className="h-1.5 w-1.5 rounded-full bg-primary/60"></span>
@@ -62,7 +62,7 @@ export function Header() {
         </div>
 
         {/* CTA */}
-        <div className="hidden lg:flex items-center gap-4">
+        <div className="hidden xl:flex items-center gap-4">
           <a
             href="https://wa.me/5511965452017"
             target="_blank"
@@ -77,7 +77,7 @@ export function Header() {
         {/* Mobile Toggle */}
         <button
           onClick={() => setMobileOpen(!mobileOpen)}
-          className="lg:hidden text-foreground"
+          className="xl:hidden text-foreground"
           aria-label={mobileOpen ? "Fechar menu" : "Abrir menu"}
         >
           {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -86,7 +86,7 @@ export function Header() {
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="lg:hidden bg-background border-t border-border">
+        <div className="xl:hidden bg-background border-t border-border">
           <nav className="flex flex-col px-6 py-6 gap-4" aria-label="Navegação mobile">
             {navLinks.map((link) => (
               <a

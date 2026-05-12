@@ -78,14 +78,19 @@ export function Header() {
           </a>
         </div>
 
-        {/* Mobile Toggle */}
-        <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          className="xl:hidden text-foreground"
-          aria-label={mobileOpen ? "Fechar menu" : "Abrir menu"}
-        >
-          {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-        </button>
+        {/* Mobile: Company name + Toggle */}
+        <div className="xl:hidden flex items-center gap-4">
+          <span className="text-sm font-semibold tracking-widest uppercase text-foreground whitespace-nowrap">
+            LB PRÉ - <span className="text-primary">MOLDADOS</span>
+          </span>
+          <button
+            onClick={() => setMobileOpen(!mobileOpen)}
+            className="text-foreground"
+            aria-label={mobileOpen ? "Fechar menu" : "Abrir menu"}
+          >
+            {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+          </button>
+        </div>
       </div>
 
       {/* Mobile Menu */}

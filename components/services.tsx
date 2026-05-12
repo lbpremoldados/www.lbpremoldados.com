@@ -54,6 +54,11 @@ const services = [
     description: "Cruzetas pré-moldadas para sustentação de estruturas.",
     images: ["/images/cruzeta-base-real.jpeg"],
   },
+  {
+    title: "Gesso Drywall com LED",
+    description: "Instalação de gesso drywall com LED embutido para ambientes modernos e sofisticados.",
+    images: ["/images/gesso-drywall-led.jpg"],
+  },
 ]
 
 function generateWhatsAppLink(productName: string) {

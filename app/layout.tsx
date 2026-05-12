@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Montserrat, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
+const _montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' })
 const _playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${_inter.variable} ${_playfair.variable} font-sans antialiased`}>
+      <body className={`${_montserrat.variable} ${_playfair.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

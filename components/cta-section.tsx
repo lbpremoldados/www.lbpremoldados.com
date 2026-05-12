@@ -53,7 +53,7 @@ export function CtaSection() {
           {/* Address */}
           <div className="mt-6 flex items-center justify-center gap-2 text-primary-foreground/50">
             <MapPin className="h-4 w-4" />
-            <span className="text-sm">Avenida Oliveira Freire, nº 1111 B - Ao lado da Cacau Show</span>
+            <span className="text-sm">Rua Boicuaíba, nº 582 - São Paulo/SP</span>
           </div>
         </div>
       </div>

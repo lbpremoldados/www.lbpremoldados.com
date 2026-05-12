@@ -25,32 +25,24 @@ export function About() {
             </h2>
 
             <p className="mt-8 text-muted-foreground leading-relaxed text-lg">
-              A LB Pré Moldados LTDA nasceu do compromisso de entregar muito mais do que
-              uma escada ou churrasqueira. Desde 1998, nossa missão é unir qualidade,
-              segurança, estética e conforto em cada projeto, transformando espaços em
-              realizações.
-            </p>
-
-            <p className="mt-4 text-muted-foreground leading-relaxed">
-              Com mais de 25 anos de experiência, somos a prova de que é possível aliar
-              resistência estrutural com elegância e acabamento impecável. Cada obra é
-              tratada como única, porque entendemos que por trás de cada projeto existe
-              um sonho esperando para se tornar realidade.
+              Há mais de 25 anos no mercado, a LB Pré Moldados é referência na fabricação 
+              de peças pré-moldadas de concreto, com qualidade, resistência e confiança 
+              para todas as etapas da sua construção.
             </p>
 
             {/* Stats */}
             <div className="mt-10 grid grid-cols-3 gap-6">
               <div className="border-l-2 border-primary pl-4">
                 <div className="text-3xl font-bold text-foreground">+25</div>
-                <p className="text-sm text-muted-foreground mt-1">Anos de mercado</p>
+                <p className="text-sm text-muted-foreground mt-1">Anos de história</p>
               </div>
               <div className="border-l-2 border-primary/50 pl-4">
-                <div className="text-3xl font-bold text-foreground">+1.000</div>
-                <p className="text-sm text-muted-foreground mt-1">Projetos entregues</p>
+                <div className="text-3xl font-bold text-foreground">Milhares</div>
+                <p className="text-sm text-muted-foreground mt-1">de obras entregues</p>
               </div>
               <div className="border-l-2 border-primary/30 pl-4">
                 <div className="text-3xl font-bold text-foreground">100%</div>
-                <p className="text-sm text-muted-foreground mt-1">Compromisso</p>
+                <p className="text-sm text-muted-foreground mt-1">Qualidade em cada detalhe</p>
               </div>
             </div>
           </div>

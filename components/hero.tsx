@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { ArrowRight, Phone } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
 export function Hero() {
   return (
@@ -32,34 +32,31 @@ export function Hero() {
 
           {/* Title */}
           <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-foreground text-balance">
-            Realizamos{" "}
-            <span className="text-primary">sonhos</span>{" "}
-            com qualidade, segurança e elegância dentro do seu lar.
+            Há empresas que vendem concreto.{" "}
+            <span className="text-primary">A LB Pré Moldados</span> transforma concreto em estrutura, sonho e legado.
           </h1>
 
           {/* Subtitle */}
           <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-            Muito mais do que estética e conforto. Somos a junção de qualidade, segurança e
-            excelência há mais de 25 anos no mercado.
+            Desde 1998 construindo mais do que obras: construindo histórias que permanecem de pé.
           </p>
 
           {/* Buttons */}
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <a
-              href="#contato"
+              href="https://wa.me/5511965452017?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20LB%20PR%C3%89%20MOLDADOS%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento."
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center justify-center gap-3 bg-primary text-primary-foreground px-8 py-4 text-sm font-bold tracking-wider uppercase hover:brightness-110 transition-all rounded-sm"
             >
-              Solicitar Projeto Exclusivo
+              Solicite um Orçamento
               <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="https://wa.me/5511965452017"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#produtos"
               className="flex items-center justify-center gap-3 border border-border text-foreground px-8 py-4 text-sm font-bold tracking-wider uppercase hover:border-primary hover:text-primary transition-all rounded-sm"
             >
-              <Phone className="h-4 w-4" />
-              Falar com Especialista
+              Conheça Nossos Produtos
             </a>
           </div>
         </div>

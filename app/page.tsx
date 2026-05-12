@@ -1,5 +1,6 @@
 import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
+import { Benefits } from "@/components/benefits"
 import { EmotionalSection } from "@/components/emotional-section"
 import { Services } from "@/components/services"
 import { Diferenciais } from "@/components/diferenciais"
@@ -14,6 +15,7 @@ export default function Page() {
       <Header />
       <main>
         <Hero />
+        <Benefits />
         <EmotionalSection />
         <Services />
         <Diferenciais />

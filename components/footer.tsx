@@ -34,12 +34,12 @@ export function Footer() {
             <ul className="flex flex-col gap-2.5">
               <li>
                 <span className="text-sm text-muted-foreground">
-                  Escadas pré-moldadas
+                  Lajes Treliçadas H8 H12 H16
                 </span>
               </li>
               <li>
                 <span className="text-sm text-muted-foreground">
-                  Escadas com viga central
+                  Escadas pré-moldadas
                 </span>
               </li>
               <li>
@@ -49,12 +49,12 @@ export function Footer() {
               </li>
               <li>
                 <span className="text-sm text-muted-foreground">
-                  Escadas revestidas em porcelanato
+                  Revestimentos de escada
                 </span>
               </li>
               <li>
                 <span className="text-sm text-muted-foreground">
-                  Churrasqueiras pré-moldadas
+                  Corrimãos
                 </span>
               </li>
               <li>
@@ -64,22 +64,22 @@ export function Footer() {
               </li>
               <li>
                 <span className="text-sm text-muted-foreground">
-                  Grades pré-moldadas (balaústres)
+                  Churrasqueiras pré-moldadas
                 </span>
               </li>
               <li>
                 <span className="text-sm text-muted-foreground">
-                  Base de caixa d'água
+                  Grades de cimento
                 </span>
               </li>
               <li>
                 <span className="text-sm text-muted-foreground">
-                  Pés de base (cruzeta)
+                  Grades de caixa d'água
                 </span>
               </li>
               <li>
                 <span className="text-sm text-muted-foreground">
-                  Estruturas sob medida
+                  Cruzeta (pés da base)
                 </span>
               </li>
             </ul>
@@ -118,8 +118,8 @@ export function Footer() {
             <div className="flex items-start gap-2 mb-6">
               <MapPin className="h-4 w-4 text-primary mt-0.5 shrink-0" />
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Avenida Oliveira Freire, nº 1111 B<br />
-                Ao lado da Cacau Show
+                Rua Boicuaíba, nº 582<br />
+                São Paulo/SP
               </p>
             </div>
 

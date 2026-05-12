@@ -6,7 +6,7 @@ const services = [
   {
     title: "Lajes Treliçadas H8 H12 H16",
     description: "Lajes treliçadas de alta resistência para todos os tipos de construção.",
-    image: "/images/hero-stairs.jpg",
+    image: "/images/lajes-trelicadas-real.jpeg",
   },
   {
     title: "Escadas Pré-moldadas",

@@ -30,12 +30,14 @@ export function Header() {
           />
         </a>
 
-        {/* Decorative line left */}
+        {/* Company name and decorative line */}
         <div className="hidden xl:flex items-center flex-1 mx-6">
-          <div className="flex items-center gap-2">
-            <span className="h-px w-8 bg-gradient-to-r from-transparent to-primary/40"></span>
-            <span className="h-1.5 w-1.5 rounded-full bg-primary/60"></span>
+          <div className="flex items-center gap-4 w-full">
+            <span className="text-sm font-semibold tracking-widest uppercase text-foreground whitespace-nowrap">
+              LB <span className="text-primary">PRÉ MOLDADOS</span>
+            </span>
             <span className="h-px flex-1 bg-primary/20"></span>
+            <span className="h-1.5 w-1.5 rounded-full bg-primary/60"></span>
           </div>
         </div>
 
@@ -52,12 +54,14 @@ export function Header() {
           ))}
         </nav>
 
-        {/* Decorative line right */}
+        {/* Slogan and decorative line right */}
         <div className="hidden xl:flex items-center flex-1 mx-6">
-          <div className="flex items-center gap-2 w-full justify-end">
-            <span className="h-px flex-1 bg-primary/20"></span>
+          <div className="flex items-center gap-4 w-full justify-end">
             <span className="h-1.5 w-1.5 rounded-full bg-primary/60"></span>
-            <span className="h-px w-8 bg-gradient-to-l from-transparent to-primary/40"></span>
+            <span className="h-px flex-1 bg-primary/20"></span>
+            <span className="text-xs text-muted-foreground tracking-wider whitespace-nowrap">
+              Desde 1998
+            </span>
           </div>
         </div>
 

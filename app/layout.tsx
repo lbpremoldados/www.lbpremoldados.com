@@ -1,10 +1,9 @@
 import type { Metadata, Viewport } from 'next'
-import { Montserrat, Playfair_Display } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const _montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' })
-const _playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' })
 
 export const metadata: Metadata = {
   title: 'LB Pré Moldados | Escadas e Churrasqueiras de Alto Padrão desde 1998',
@@ -32,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${_montserrat.variable} ${_playfair.variable} font-sans antialiased`}>
+      <body className={`${_montserrat.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

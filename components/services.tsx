@@ -24,8 +24,8 @@ const services = [
     image: "/images/escada-porcelanato-real.jpeg",
   },
   {
-    title: "Corrimãos",
-    description: "Corrimãos tubulares galvanizados e em inox para sua escada.",
+    title: "Corrimãos de Vidro, Aço Inox e Tubulares Galvanizados",
+    description: "Corrimãos de vidro, aço inox e tubulares galvanizados para sua escada.",
     image: "/images/escada-viga-central-real.jpeg",
   },
   {

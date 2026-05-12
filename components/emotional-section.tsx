@@ -19,9 +19,9 @@ export function EmotionalSection() {
             <div className="h-px w-16 bg-primary/50" />
           </div>
 
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground leading-tight text-balance">
-            Não procuramos fazer apenas uma escada ou churrasqueira.{" "}
-            <span className="text-primary">Procuramos realizar sonhos.</span>
+          <h2 className="font-sans font-bold text-3xl md:text-4xl lg:text-5xl text-foreground leading-tight text-balance">
+            Não procuramos fazer apenas uma laje treliçada, uma escada ou uma churrasqueira.{" "}
+            <span className="text-primary">E sim, procuramos realizar sonhos.</span>
           </h2>
 
           <p className="mt-8 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">

@@ -8,6 +8,7 @@ import { Gallery } from "@/components/gallery"
 import { About } from "@/components/about"
 import { CtaSection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
+import { WhatsAppButton } from "@/components/whatsapp-button"
 
 export default function Page() {
   return (
@@ -24,6 +25,7 @@ export default function Page() {
         <CtaSection />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   )
 }

@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next'
 import { Montserrat } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import Script from 'next/script'
 
 const _montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' })
 
@@ -30,7 +31,21 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR">
+   <html lang="pt-BR">
+  <head>
+    <Script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-18115288939"
+    />
+    <Script id="google-ads">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-18115288939');
+      `}
+    </Script>
+  </head>
       <body className={`${_montserrat.variable} font-sans antialiased`}>
         {children}
         <Analytics />

@@ -8,7 +8,7 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   const navLinks = [
-    { label: "Escadas", href: "#galeria" },
+    { label: "Escadas", href: "/escadas" },
     { label: "Churrasqueiras", href: "#galeria" },
     { label: "Diferenciais", href: "#diferenciais" },
     { label: "Sobre", href: "#sobre" },

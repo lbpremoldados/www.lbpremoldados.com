@@ -14,14 +14,14 @@ export function Hero() {
           priority
         />
         {/* Dark overlay with gradient */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background/85 via-background/50 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-l from-background/85 via-background/40 to-transparent" />
         {/* Bottom gradient */}
         <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
       </div>
 
       {/* Content */}
-      <div className="relative mx-auto max-w-7xl px-6 py-32 lg:py-40">
-        <div className="max-w-lg">
+      <div className="relative mx-auto max-w-7xl px-6 py-32 lg:py-40 flex justify-end">
+        <div className="max-w-lg lg:mr-4 lg:-mt-16">
           {/* Tag */}
           <div className="mb-5 flex items-center gap-3">
             <div className="h-px w-12 bg-primary" />

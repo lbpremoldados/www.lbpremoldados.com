@@ -7,10 +7,10 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-stairs.jpg"
-          alt="Escada pré-moldada de alto padrão"
+          src="/images/equipe-lb.jpeg"
+          alt="Equipe da LB Pré Moldados carregando degraus de escadas pré-moldadas na fábrica"
           fill
-          className="object-cover"
+          className="object-cover object-right lg:object-center"
           priority
         />
         {/* Dark overlay with gradient */}

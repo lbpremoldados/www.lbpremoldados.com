@@ -7,21 +7,21 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-stairs.jpg"
-          alt="Escada pré-moldada de alto padrão"
+          src="/images/hero-team.jpg"
+          alt="Equipe da LB Pré Moldados carregando lajes de concreto"
           fill
-          className="object-cover"
+          className="object-cover object-[75%_center]"
           priority
         />
         {/* Dark overlay with gradient */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/50 to-transparent" />
         {/* Bottom gradient */}
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
       </div>
 
       {/* Content */}
-      <div className="relative mx-auto max-w-7xl px-6 py-32 lg:py-40">
-        <div className="max-w-2xl">
+      <div className="relative w-full mx-auto max-w-7xl px-6 py-32 lg:py-40">
+        <div className="max-w-md">
           {/* Tag */}
           <div className="mb-6 flex items-center gap-3">
             <div className="h-px w-12 bg-primary" />
@@ -31,13 +31,18 @@ export function Hero() {
           </div>
 
           {/* Title */}
-          <h1 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-foreground text-balance">
-            Há empresas que vendem concreto.{" "}
-            <span className="text-primary">A LB PRÉ MOLDADOS</span> transforma concreto em estrutura, sonho e legado.
+          <h1 className="font-sans font-bold text-xl md:text-2xl lg:text-[1.75rem] leading-snug text-foreground max-w-lg">
+            Há empresas que vendem concreto.
+            <br />
+            <span className="text-primary">A LB PRÉ-MOLDADOS</span> transforma
+            <br />
+            concreto em estrutura,
+            <br />
+            sonho e legado.
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
+          <p className="mt-6 text-base md:text-lg text-muted-foreground leading-relaxed max-w-md">
             Desde 1998 construindo mais do que obras: construindo histórias que permanecem de pé.
           </p>
 

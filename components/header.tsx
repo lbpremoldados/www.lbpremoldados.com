@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react"
-import Image from "next/image"
 import { Menu, X, Phone } from "lucide-react"
 
 export function Header() {
@@ -18,28 +17,20 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="mx-auto max-w-7xl flex items-center justify-between px-6 py-4">
-        {/* Logo */}
-        <a href="#" className="flex items-center">
-          <Image
-            src="/images/logo-new.jpeg"
-            alt="LB Pré Moldados - Desde 1998 - 25 anos construindo sonhos no seu lar"
-            width={320}
-            height={80}
-            className="h-16 md:h-20 w-auto object-contain"
-            priority
-          />
+        {/* Wordmark */}
+        <a href="#" className="group inline-flex flex-col justify-center leading-none">
+          <span
+            className="relative inline-block font-sans font-extrabold uppercase text-foreground text-xl md:text-2xl tracking-tight"
+            style={{ textShadow: "0 0 18px rgba(255, 106, 0, 0.18)" }}
+          >
+            <span className="text-primary">LB</span> PRÉ-MOLDADOS
+            {/* Sliding orange underline */}
+            <span className="pointer-events-none absolute -bottom-1 left-0 h-0.5 w-0 bg-primary transition-all duration-300 ease-out group-hover:w-full" />
+          </span>
+          <span className="mt-1.5 text-[0.6rem] md:text-[0.68rem] font-light uppercase tracking-[0.35em] text-muted-foreground">
+            Artefatos de Concreto
+          </span>
         </a>
-
-        {/* Company name and decorative line */}
-        <div className="hidden xl:flex items-center flex-1 mx-6">
-          <div className="flex items-center gap-4 w-full">
-            <span className="text-sm font-semibold tracking-widest uppercase text-foreground whitespace-nowrap">
-              LB PRÉ - <span className="text-primary">MOLDADOS</span>
-            </span>
-            <span className="h-px flex-1 bg-primary/20"></span>
-            <span className="h-1.5 w-1.5 rounded-full bg-primary/60"></span>
-          </div>
-        </div>
 
         {/* Desktop Nav */}
         <nav className="hidden xl:flex items-center gap-8" aria-label="Navegação principal">
@@ -78,11 +69,8 @@ export function Header() {
           </a>
         </div>
 
-        {/* Mobile: Company name + Toggle */}
-        <div className="xl:hidden flex items-center gap-4">
-          <span className="text-sm font-semibold tracking-widest uppercase text-foreground whitespace-nowrap">
-            LB PRÉ - <span className="text-primary">MOLDADOS</span>
-          </span>
+        {/* Mobile: Toggle */}
+        <div className="xl:hidden flex items-center">
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="text-foreground"

@@ -5,23 +5,27 @@ import { Award, Truck, ShieldCheck, Leaf } from "lucide-react"
 const benefits = [
   {
     icon: Award,
-    title: "Qualidade Garantida",
-    description: "Materiais de primeira linha e acabamento impecável em todas as peças.",
+    title: "Resistência Comprovada",
+    description:
+      "De 700 a 1000 quilos de resistência por degrau, alcançando de 35 MPa a 40 MPa.",
   },
   {
     icon: Truck,
-    title: "Agilidade na Entrega",
-    description: "Produção eficiente e entrega rápida para não atrasar sua obra.",
+    title: "Instalação Rápida",
+    description:
+      "Instalação em um dia útil, de 5 a 7 horas, dependendo do modelo da escada.",
   },
   {
     icon: ShieldCheck,
     title: "Segurança e Confiança",
-    description: "Mais de 25 anos de mercado com milhares de clientes satisfeitos.",
+    description:
+      "A lei garante 12 meses, mas a LB oferece 3 anos de garantia, desde que seguidas as normas dos degraus pré-moldados.",
   },
   {
     icon: Leaf,
     title: "Sustentabilidade",
-    description: "Processos que respeitam o meio ambiente e otimizam recursos.",
+    description:
+      "Mais de 25 anos no mercado, com milhares de clientes satisfeitos.",
   },
 ]
 

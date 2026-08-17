@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react"
+import Image from "next/image"
 
 export function EmotionalSection() {
   return (
@@ -20,14 +21,33 @@ export function EmotionalSection() {
           </div>
 
           <h2 className="font-sans font-bold text-3xl md:text-4xl lg:text-5xl text-foreground leading-tight text-balance">
-            Não procuramos fazer apenas uma laje treliçada, uma escada ou uma churrasqueira.{" "}
-            <span className="text-primary">E sim, procuramos realizar sonhos.</span>
+            Do projeto à instalação,{" "}
+            <span className="text-primary">excelência em cada detalhe.</span>
           </h2>
 
-          <p className="mt-8 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-            Realizando cada projeto com excelência, da forma que o seu lar merece!
-            Há 25 anos sendo referência no mercado.
+          <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+            Há mais de 25 anos construindo com qualidade, precisão e segurança.
           </p>
+
+          {/* Installation photos */}
+          <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 max-w-3xl mx-auto">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-sm ring-1 ring-primary/20">
+              <Image
+                src="/images/instalacao-1.jpg"
+                alt="Funcionário da LB Pré-Moldados realizando a instalação em obra"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="relative aspect-[4/5] overflow-hidden rounded-sm ring-1 ring-primary/20">
+              <Image
+                src="/images/instalacao-2.jpg"
+                alt="Funcionário da LB Pré-Moldados finalizando a instalação da escada"
+                fill
+                className="object-cover"
+              />
+            </div>
+          </div>
 
           <a
             href="#contato"

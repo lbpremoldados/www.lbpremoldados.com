@@ -21,7 +21,7 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative mx-auto max-w-7xl px-6 py-32 lg:py-40 flex justify-end">
-        <div className="max-w-md lg:-mr-8 lg:-mt-16">
+        <div className="max-w-sm lg:-mr-24 lg:-mt-16">
           {/* Tag */}
           <div className="mb-5 flex items-center gap-3">
             <div className="h-px w-12 bg-primary" />

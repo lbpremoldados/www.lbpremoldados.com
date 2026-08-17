@@ -6,22 +6,24 @@ const benefits = [
   {
     icon: Award,
     title: "Qualidade Garantida",
-    description: "Materiais de primeira linha e acabamento impecável em todas as peças.",
+    description: "700 a 1000 kg de resistência por degrau.",
   },
   {
     icon: Truck,
     title: "Agilidade na Entrega",
-    description: "Produção eficiente e entrega rápida para não atrasar sua obra.",
+    description:
+      "Instalação da escada pré-moldada em 1 dia, de 5 a 7 horas dependendo do modelo.",
   },
   {
     icon: ShieldCheck,
     title: "Segurança e Confiança",
-    description: "Mais de 25 anos de mercado com milhares de clientes satisfeitos.",
+    description:
+      "Garantia e responsabilidade sobre o produto: 1 ano por lei, mas a LB fornece 3 anos desde que sejam seguidas as normas.",
   },
   {
     icon: Leaf,
     title: "Sustentabilidade",
-    description: "Processos que respeitam o meio ambiente e otimizam recursos.",
+    description: "Degrau com matéria-prima de qualidade!",
   },
 ]
 

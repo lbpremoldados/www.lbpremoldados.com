@@ -14,16 +14,16 @@ export function Hero() {
           priority
         />
         {/* Dark overlay with gradient */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/90 to-background/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/85 via-background/50 to-transparent" />
         {/* Bottom gradient */}
-        <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-background/70 via-transparent to-transparent" />
       </div>
 
       {/* Content */}
       <div className="relative mx-auto max-w-7xl px-6 py-32 lg:py-40">
-        <div className="max-w-2xl">
+        <div className="max-w-lg">
           {/* Tag */}
-          <div className="mb-6 flex items-center gap-3">
+          <div className="mb-5 flex items-center gap-3">
             <div className="h-px w-12 bg-primary" />
             <span className="text-xs uppercase tracking-[0.3em] text-primary font-medium">
               Desde 1998
@@ -31,13 +31,13 @@ export function Hero() {
           </div>
 
           {/* Title */}
-          <h1 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-foreground text-balance">
+          <h1 className="font-sans font-bold text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground text-balance drop-shadow-lg">
             Há empresas que vendem concreto.{" "}
             <span className="text-primary">A LB PRÉ MOLDADOS</span> transforma concreto em estrutura, sonho e legado.
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
+          <p className="mt-5 text-sm md:text-base text-muted-foreground leading-relaxed max-w-md drop-shadow-md">
             Desde 1998 construindo mais do que obras: construindo histórias que permanecem de pé.
           </p>
 

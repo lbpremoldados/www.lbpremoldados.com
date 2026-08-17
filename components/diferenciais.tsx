@@ -1,4 +1,5 @@
 import { Shield, Award, Ruler, Building2, Users } from "lucide-react"
+import Image from "next/image"
 
 const diferenciais = [
   {
@@ -60,6 +61,26 @@ export function Diferenciais() {
             Qualidade, segurança, estética e conforto reunidos em cada projeto há mais de
             25 anos.
           </p>
+        </div>
+
+        {/* Photos */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 mb-16 max-w-4xl mx-auto">
+          <div className="relative aspect-[4/5] overflow-hidden rounded-sm ring-1 ring-primary/20">
+            <Image
+              src="/images/diferencial-1.jpg"
+              alt="Peças de concreto pré-moldado de alto padrão entregues em obra acabada"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="relative aspect-[4/5] overflow-hidden rounded-sm ring-1 ring-primary/20">
+            <Image
+              src="/images/diferencial-2.jpg"
+              alt="Funcionário da LB Pré-Moldados transportando peça personalizada de concreto"
+              fill
+              className="object-cover"
+            />
+          </div>
         </div>
 
         {/* Grid */}

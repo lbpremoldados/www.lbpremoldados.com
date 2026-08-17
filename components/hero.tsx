@@ -31,9 +31,14 @@ export function Hero() {
           </div>
 
           {/* Title */}
-          <h1 className="font-sans font-bold text-2xl md:text-3xl lg:text-4xl leading-tight text-foreground text-balance max-w-md">
-            Há empresas que vendem concreto.{" "}
-            <span className="text-primary">A LB PRÉ MOLDADOS</span> transforma concreto em estrutura, sonho e legado.
+          <h1 className="font-sans font-bold text-xl md:text-2xl lg:text-[1.75rem] leading-snug text-foreground max-w-lg">
+            Há empresas que vendem concreto.
+            <br />
+            <span className="text-primary">A LB PRÉ-MOLDADOS</span> transforma
+            <br />
+            concreto em estrutura,
+            <br />
+            sonho e legado.
           </h1>
 
           {/* Subtitle */}

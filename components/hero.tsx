@@ -7,10 +7,10 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/hero-stairs.jpg"
-          alt="Escada pré-moldada de alto padrão"
+          src="/images/hero-team.jpg"
+          alt="Equipe da LB Pré Moldados carregando lajes de concreto"
           fill
-          className="object-cover"
+          className="object-cover object-center"
           priority
         />
         {/* Dark overlay with gradient */}
@@ -21,7 +21,7 @@ export function Hero() {
 
       {/* Content */}
       <div className="relative mx-auto max-w-7xl px-6 py-32 lg:py-40">
-        <div className="max-w-2xl">
+        <div className="max-w-xl">
           {/* Tag */}
           <div className="mb-6 flex items-center gap-3">
             <div className="h-px w-12 bg-primary" />
@@ -31,7 +31,7 @@ export function Hero() {
           </div>
 
           {/* Title */}
-          <h1 className="font-sans font-bold text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight text-foreground text-balance">
+          <h1 className="font-sans font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl leading-tight text-foreground text-balance max-w-lg">
             Há empresas que vendem concreto.{" "}
             <span className="text-primary">A LB PRÉ MOLDADOS</span> transforma concreto em estrutura, sonho e legado.
           </h1>

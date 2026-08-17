@@ -21,13 +21,12 @@ export function EmotionalSection() {
           </div>
 
           <h2 className="font-sans font-bold text-3xl md:text-4xl lg:text-5xl text-foreground leading-tight text-balance">
-            Não procuramos fazer apenas uma laje treliçada, uma escada ou uma churrasqueira.{" "}
-            <span className="text-primary">E sim, procuramos realizar sonhos.</span>
+            Do projeto à instalação,{" "}
+            <span className="text-primary">excelência em cada detalhe.</span>
           </h2>
 
-          <p className="mt-8 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-            Realizando cada projeto com excelência, da forma que o seu lar merece!
-            Há mais de 25 anos sendo referência no mercado.
+          <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+            Há mais de 25 anos construindo com qualidade, precisão e segurança.
           </p>
 
           {/* Installation photos */}

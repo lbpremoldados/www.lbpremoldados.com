@@ -1,5 +1,7 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Phone, Mail, MapPin, Instagram } from "lucide-react"
+import { categories } from "@/data/catalog"
 
 export function Footer() {
   return (
@@ -29,64 +31,27 @@ export function Footer() {
           {/* Products */}
           <div>
             <h4 className="text-sm font-semibold text-foreground uppercase tracking-wider mb-4">
-              Produtos
+              Catálogo
             </h4>
             <ul className="flex flex-col gap-2.5">
               <li>
-                <span className="text-sm text-muted-foreground">
-                  Lajes Treliçadas H8 H12 H16
-                </span>
+                <Link
+                  href="/catalogo"
+                  className="text-sm font-semibold text-foreground hover:text-primary transition-colors"
+                >
+                  Ver catálogo completo
+                </Link>
               </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Escadas pré-moldadas
-                </span>
-              </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Escadas em alvenaria
-                </span>
-              </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Revestimentos de escada
-                </span>
-              </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Corrimãos
-                </span>
-              </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Churrasqueiras de tijolinho
-                </span>
-              </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Churrasqueiras pré-moldadas
-                </span>
-              </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Grades de cimento
-                </span>
-              </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Grades de caixa d'água
-                </span>
-              </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Cruzeta (pés da base)
-                </span>
-              </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Gesso Drywall com LED
-                </span>
-              </li>
+              {categories.map((category) => (
+                <li key={category.slug}>
+                  <Link
+                    href={`/catalogo/${category.slug}`}
+                    className="text-sm text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    {category.name}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

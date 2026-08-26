@@ -1,24 +1,26 @@
 "use client"
 
 import { useState } from "react"
+import Link from "next/link"
 import { Menu, X, Phone } from "lucide-react"
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false)
 
   const navLinks = [
-    { label: "Escadas", href: "#galeria" },
-    { label: "Churrasqueiras", href: "#galeria" },
-    { label: "Diferenciais", href: "#diferenciais" },
-    { label: "Sobre", href: "#sobre" },
-    { label: "Contato", href: "#contato" },
+    { label: "Catálogo", href: "/catalogo", highlight: true },
+    { label: "Escadas", href: "/catalogo/escadas" },
+    { label: "Lajes", href: "/catalogo/lajes" },
+    { label: "Diferenciais", href: "/#diferenciais" },
+    { label: "Sobre", href: "/#sobre" },
+    { label: "Contato", href: "/#contato" },
   ]
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="mx-auto max-w-7xl flex items-center justify-between px-6 py-4">
         {/* Wordmark */}
-        <a href="#" className="group inline-flex flex-col justify-center leading-none">
+        <Link href="/" className="group inline-flex flex-col justify-center leading-none">
           <span
             className="relative inline-block font-sans font-extrabold uppercase text-foreground text-xl md:text-2xl tracking-tight"
             style={{ textShadow: "0 0 18px rgba(255, 106, 0, 0.18)" }}
@@ -30,18 +32,20 @@ export function Header() {
           <span className="mt-1.5 text-[0.6rem] md:text-[0.68rem] font-light uppercase tracking-[0.35em] text-muted-foreground">
             Artefatos de Concreto
           </span>
-        </a>
+        </Link>
 
         {/* Desktop Nav */}
         <nav className="hidden xl:flex items-center gap-8" aria-label="Navegação principal">
           {navLinks.map((link) => (
-            <a
+            <Link
               key={link.label}
               href={link.href}
-              className="text-sm text-muted-foreground hover:text-primary transition-colors tracking-wide uppercase"
+              className={`text-sm transition-colors tracking-wide uppercase hover:text-primary ${
+                link.highlight ? "font-bold text-foreground" : "text-muted-foreground"
+              }`}
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -86,14 +90,16 @@ export function Header() {
         <div className="xl:hidden bg-background border-t border-border">
           <nav className="flex flex-col px-6 py-6 gap-4" aria-label="Navegação mobile">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.label}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="text-sm text-muted-foreground hover:text-primary transition-colors tracking-wide uppercase py-2"
+                className={`text-sm transition-colors tracking-wide uppercase py-2 hover:text-primary ${
+                  link.highlight ? "font-bold text-foreground" : "text-muted-foreground"
+                }`}
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
             <a
               href="https://wa.me/5511965452017"

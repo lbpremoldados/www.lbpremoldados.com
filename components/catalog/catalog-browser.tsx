@@ -23,7 +23,7 @@ export function CatalogBrowser({ initialCategory = "todas" }: { initialCategory?
             onChange={(event) => setQuery(event.target.value)}
             placeholder="BUSCAR PRODUTO OU SOLUÇÃO..."
             aria-label="Buscar produto ou solução"
-            className="w-full border border-border bg-secondary/50 py-4 pl-12 pr-12 text-sm uppercase tracking-[0.12em] text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary"
+            className="w-full border border-border bg-secondary/50 py-4 pl-12 pr-12 text-sm uppercase tracking-[0.12em] text-foreground placeholder:text-muted-foreground focus:border-primary focus:outline-none focus:ring-1 focus:ring-primary [&::-webkit-search-cancel-button]:appearance-none"
           />
           {query && (
             <button

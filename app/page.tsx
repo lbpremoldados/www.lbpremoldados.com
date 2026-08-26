@@ -9,6 +9,7 @@ import { About } from "@/components/about"
 import { CtaSection } from "@/components/cta-section"
 import { Footer } from "@/components/footer"
 import { WhatsAppButton } from "@/components/whatsapp-button"
+import { CatalogTeaser } from "@/components/catalog/catalog-teaser"
 
 export default function Page() {
   return (
@@ -19,6 +20,7 @@ export default function Page() {
         <Benefits />
         <EmotionalSection />
         <Services />
+        <CatalogTeaser />
         <Diferenciais />
         <Gallery />
         <About />

@@ -167,12 +167,17 @@ export const products: CatalogProduct[] = [
     shortDescription: "Solução pré-moldada de lance único, fabricada conforme as medidas do vão.",
     description:
       "A escada reta é a solução pré-moldada mais direta e utilizada em obras residenciais. Fabricada em concreto na nossa fábrica, é produzida conforme as medidas do vão e entregue pronta para instalação, reduzindo tempo de obra e desperdício de material. Permite acabamento posterior em porcelanato, granito ou mármore.",
-    mainImage: "/images/catalogo/escada-reta.png",
+    mainImage: "/images/catalogo/escada-reta-flutuante.jpeg",
     gallery: [
       {
-        src: "/images/catalogo/escada-reta.png",
-        alt: "Escada pré-moldada reta em concreto instalada em obra",
-        caption: "Produto",
+        src: "/images/catalogo/escada-reta-flutuante.jpeg",
+        alt: "Escada pré-moldada reta com degraus flutuantes e pilar central, executada pela LB",
+        caption: "Obra executada pela LB",
+      },
+      {
+        src: "/images/catalogo/escada-reta-jardim.jpeg",
+        alt: "Escada pré-moldada reta com pilar central instalada em área externa com jardim",
+        caption: "Instalação em área externa",
       },
       {
         src: "/images/escada-corrimao-tubular.jpeg",
@@ -272,12 +277,12 @@ export const products: CatalogProduct[] = [
     shortDescription: "Dois lances paralelos com giro de 180°, ideal para caixas de escada.",
     description:
       "A escada em U é indicada para caixas de escada e vãos que exigem retorno completo. É fabricada em concreto pré-moldado em diferentes configurações de largura e patamar, sempre conforme as medidas do local. Nossa equipe avalia o vão e indica a configuração mais adequada.",
-    mainImage: "/images/catalogo/escada-u.png",
+    mainImage: "/images/catalogo/escada-u-real.jpeg",
     gallery: [
       {
-        src: "/images/catalogo/escada-u.png",
-        alt: "Escada pré-moldada em U com dois lances e patamar em concreto",
-        caption: "Produto",
+        src: "/images/catalogo/escada-u-real.jpeg",
+        alt: "Vista superior de escada pré-moldada em U com giro de 180° executada pela LB",
+        caption: "Obra executada pela LB",
       },
       {
         src: "/images/escada-granito-vidro-real.jpeg",
@@ -362,11 +367,11 @@ export const products: CatalogProduct[] = [
     shortDescription: "Solução helicoidal para vãos reduzidos, com diâmetro conforme o projeto.",
     description:
       "A escada caracol é a solução ideal quando o espaço disponível é pequeno e o acesso precisa ser vertical. Executada com diâmetro definido conforme o local, recebe corrimão metálico e pode ser finalizada com revestimento. Informe o diâmetro disponível e a altura piso a piso para receber um orçamento preciso.",
-    mainImage: "/images/escada-caracol-real.jpeg",
+    mainImage: "/images/catalogo/escada-caracol-real.jpeg",
     gallery: [
       {
-        src: "/images/escada-caracol-real.jpeg",
-        alt: "Escada caracol pré-moldada com corrimão metálico executada pela LB",
+        src: "/images/catalogo/escada-caracol-real.jpeg",
+        alt: "Escada caracol pré-moldada com guarda-corpo em inox instalada em residência",
         caption: "Obra executada pela LB",
       },
       {
@@ -1570,8 +1575,8 @@ export const stairHighlights: StairHighlight[] = [
   {
     label: "Reta",
     slug: "escada-pre-moldada-reta",
-    image: "/images/catalogo/escada-reta.png",
-    alt: "Escada pré-moldada reta de concreto",
+    image: "/images/catalogo/escada-reta-flutuante.jpeg",
+    alt: "Escada pré-moldada reta de concreto executada pela LB",
   },
   {
     label: "Em L",
@@ -1582,8 +1587,8 @@ export const stairHighlights: StairHighlight[] = [
   {
     label: "Em U",
     slug: "escada-pre-moldada-em-u",
-    image: "/images/catalogo/escada-u.png",
-    alt: "Escada pré-moldada em U com dois lances",
+    image: "/images/catalogo/escada-u-real.jpeg",
+    alt: "Escada pré-moldada em U com giro de 180° executada pela LB",
   },
   {
     label: "Tipo J",
@@ -1594,8 +1599,8 @@ export const stairHighlights: StairHighlight[] = [
   {
     label: "Caracol",
     slug: "escada-caracol",
-    image: "/images/escada-caracol-real.jpeg",
-    alt: "Escada caracol executada pela LB Pré-Moldados",
+    image: "/images/catalogo/escada-caracol-real.jpeg",
+    alt: "Escada caracol com guarda-corpo em inox executada pela LB Pré-Moldados",
   },
   {
     label: "Viga Central",

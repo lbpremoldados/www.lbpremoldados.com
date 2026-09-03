@@ -167,17 +167,12 @@ export const products: CatalogProduct[] = [
     shortDescription: "Solução pré-moldada de lance único, fabricada conforme as medidas do vão.",
     description:
       "A escada reta é a solução pré-moldada mais direta e utilizada em obras residenciais. Fabricada em concreto na nossa fábrica, é produzida conforme as medidas do vão e entregue pronta para instalação, reduzindo tempo de obra e desperdício de material. Permite acabamento posterior em porcelanato, granito ou mármore.",
-    mainImage: "/images/catalogo/escada-reta-flutuante.jpeg",
+    mainImage: "/images/catalogo/escada-reta-jardim.jpeg",
     gallery: [
       {
-        src: "/images/catalogo/escada-reta-flutuante.jpeg",
-        alt: "Escada pré-moldada reta com degraus flutuantes e pilar central, executada pela LB",
-        caption: "Obra executada pela LB",
-      },
-      {
         src: "/images/catalogo/escada-reta-jardim.jpeg",
-        alt: "Escada pré-moldada reta com pilar central instalada em área externa com jardim",
-        caption: "Instalação em área externa",
+        alt: "Escada pré-moldada reta com pilar central instalada em área externa com jardim, executada pela LB",
+        caption: "Obra executada pela LB",
       },
       {
         src: "/images/escada-corrimao-tubular.jpeg",
@@ -229,12 +224,12 @@ export const products: CatalogProduct[] = [
     shortDescription: "Dois lances com giro de 90°, com patamar quando aplicável.",
     description:
       "A escada em L resolve vãos que exigem mudança de direção, aproveitando melhor o espaço disponível. Quando o projeto pede, é executada com patamar intermediário, garantindo conforto na subida. Fabricada em concreto conforme as medidas informadas e entregue pronta para instalação pela nossa equipe.",
-    mainImage: "/images/catalogo/escada-l.png",
+    mainImage: "/images/catalogo/escada-reta-flutuante.jpeg",
     gallery: [
       {
-        src: "/images/catalogo/escada-l.png",
-        alt: "Escada pré-moldada em L com patamar intermediário em concreto",
-        caption: "Produto",
+        src: "/images/catalogo/escada-reta-flutuante.jpeg",
+        alt: "Escada pré-moldada em L com degraus flutuantes e pilar central executada pela LB",
+        caption: "Obra executada pela LB",
       },
       {
         src: "/images/escada-marmore-jardim-real.jpeg",
@@ -1575,14 +1570,14 @@ export const stairHighlights: StairHighlight[] = [
   {
     label: "Reta",
     slug: "escada-pre-moldada-reta",
-    image: "/images/catalogo/escada-reta-flutuante.jpeg",
-    alt: "Escada pré-moldada reta de concreto executada pela LB",
+    image: "/images/catalogo/escada-reta-jardim.jpeg",
+    alt: "Escada pré-moldada reta de concreto instalada em área externa, executada pela LB",
   },
   {
     label: "Em L",
     slug: "escada-pre-moldada-em-l",
-    image: "/images/catalogo/escada-l.png",
-    alt: "Escada pré-moldada em L com patamar",
+    image: "/images/catalogo/escada-reta-flutuante.jpeg",
+    alt: "Escada pré-moldada em L com degraus flutuantes executada pela LB",
   },
   {
     label: "Em U",

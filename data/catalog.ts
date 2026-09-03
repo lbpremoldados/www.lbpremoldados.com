@@ -1411,6 +1411,44 @@ export const products: CatalogProduct[] = [
       "Grade estrela pré-moldada de concreto, módulo de 2,00 m x 0,80 m, para muros, jardins e varandas. Fabricação própria LB Pré-Moldados.",
     keywords: ["grade estrela", "grade de concreto estrela", "grade decorativa de cimento"],
   },
+  {
+    id: "grade-galinho",
+    slug: "grade-galinho",
+    name: "Grade Galinho",
+    category: "balaustres",
+    shortDescription: "Grade decorativa de concreto com padrão rústico de galhos entrelaçados.",
+    description:
+      "A Grade Galinho é uma grade pré-moldada de concreto com o clássico padrão rústico de galhos e gravetos entrelaçados, dando um visual natural e diferenciado ao muro. É indicada para fechamento decorativo de muros de frente, jardins e áreas externas, unindo ventilação, resistência e charme rústico. Cada módulo tem 2,00 m de comprimento por 0,80 m de altura, com pilaretes de concreto entre as peças.",
+    mainImage: "/images/catalogo/grade-galinho-real.jpeg",
+    gallery: [
+      {
+        src: "/images/catalogo/grade-galinho-real.jpeg",
+        alt: "Grade galinho de concreto branca com padrão de galhos entrelaçados sobre muro de tijolo",
+        caption: "Obra executada pela LB",
+      },
+    ],
+    specifications: [
+      { label: "Material", value: "Concreto pré-moldado" },
+      { label: "Comprimento", value: "2,00 m por módulo" },
+      { label: "Altura", value: "0,80 m" },
+      { label: "Padrão", value: "Rústico de galhos entrelaçados" },
+      { label: "Acabamento", value: "Concreto aparente, pintura opcional" },
+      { label: "Valor", value: "Orçamento por metragem ou quantidade" },
+    ],
+    dimensions: ["Módulo de 2,00 m x 0,80 m", "Pilaretes entre os módulos"],
+    applications: ["Muros de frente", "Jardins", "Áreas externas", "Fechamentos decorativos"],
+    options: ["Pintura sob consulta", "Pilaretes de concreto"],
+    manufacturedByLB: true,
+    featured: true,
+    relatedProducts: ["grade-trancinha", "grade-estrela", "grade-chanfrada"],
+    whatsappMessage:
+      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento da Grade Galinho (módulo de 2,00 m x 0,80 m). Posso informar a metragem do local?",
+    quoteForm: "metragem",
+    seoTitle: "Grade Galinho de Concreto | LB Pré-Moldados",
+    seoDescription:
+      "Grade galinho pré-moldada de concreto, módulo de 2,00 m x 0,80 m, com padrão rústico de galhos para muros e jardins. Fabricação própria LB Pré-Moldados.",
+    keywords: ["grade galinho", "grade de concreto galinho", "grade rústica de cimento"],
+  },
 
   /* ----------------------------- OUTROS ARTEFATOS ----------------------------- */
   {
@@ -1769,11 +1807,12 @@ const searchAliases: Record<string, string[]> = {
   led: ["gesso-drywall-com-led", "escada-de-alvenaria"],
   calcada: ["piso-para-calcada", "piso-de-concreto"],
   piso: ["piso-para-calcada", "piso-de-concreto"],
-  balaustre: ["grade-chanfrada", "grade-trancinha", "grade-estrela"],
-  grade: ["grade-chanfrada", "grade-trancinha", "grade-estrela"],
+  balaustre: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho"],
+  grade: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho"],
   chanfrada: ["grade-chanfrada"],
   trancinha: ["grade-trancinha"],
   estrela: ["grade-estrela"],
+  galinho: ["grade-galinho"],
   h8: ["laje-trelicada-h8"],
   h12: ["laje-trelicada-h12"],
   h16: ["laje-trelicada-h16"],

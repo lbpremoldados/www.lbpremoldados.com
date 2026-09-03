@@ -779,7 +779,7 @@ export const products: CatalogProduct[] = [
     options: ["Envio de croqui ou foto de referência"],
     manufacturedByLB: true,
     featured: false,
-    relatedProducts: ["piso-de-concreto", "pingadeira-de-concreto", "balaustre-pre-moldado"],
+    relatedProducts: ["piso-de-concreto", "pingadeira-de-concreto", "grade-chanfrada"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de consultar a fabricação de um Artefato de Concreto Personalizado. Posso enviar o desenho e as medidas?",
     quoteForm: "generico",
@@ -875,7 +875,7 @@ export const products: CatalogProduct[] = [
     options: ["Modelos e texturas sob consulta"],
     manufacturedByLB: false,
     featured: false,
-    relatedProducts: ["revestimento-de-escada-em-porcelanato", "pingadeira-de-concreto", "balaustre-pre-moldado"],
+    relatedProducts: ["revestimento-de-escada-em-porcelanato", "pingadeira-de-concreto", "grade-chanfrada"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de consultar os modelos de Revestimento de Concreto disponíveis. Poderia me passar mais informações?",
     quoteForm: "metragem",
@@ -1281,7 +1281,7 @@ export const products: CatalogProduct[] = [
     options: ["Quantidade por peça", "Cálculo por metragem do muro"],
     manufacturedByLB: true,
     featured: true,
-    relatedProducts: ["piso-para-calcada", "balaustre-pre-moldado", "artefato-personalizado"],
+    relatedProducts: ["piso-para-calcada", "grade-chanfrada", "artefato-personalizado"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de consultar as Pingadeiras de Concreto para muro. Posso informar a quantidade ou a metragem do muro?",
     quoteForm: "quantidade",
@@ -1293,46 +1293,47 @@ export const products: CatalogProduct[] = [
 
   /* --------------------------------- BALAÚSTRES ------------------------------- */
   {
-    id: "balaustre",
-    slug: "balaustre-pre-moldado",
-    name: "Balaústre Pré-Moldado",
+    id: "grade-chanfrada",
+    slug: "grade-chanfrada",
+    name: "Grade Chanfrada",
     category: "balaustres",
-    shortDescription: "Peça decorativa de concreto para fechamento de sacadas e muros.",
+    shortDescription: "Grade decorativa de concreto com acabamento chanfrado.",
     description:
-      "O balaústre é a peça de concreto torneada usada no fechamento decorativo de sacadas, muros e jardins. Diferente do corrimão, ele compõe o fechamento em si, formando a guarda com repetição de peças. Modelos, dimensões e acabamentos conforme a linha fabricada pela LB.",
+      "A Grade Chanfrada é uma grade pré-moldada de concreto com acabamento chanfrado, indicada para o fechamento decorativo de muros de frente, sacadas e jardins, unindo ventilação, resistência e um visual elegante. Cada módulo tem 2,00 m de comprimento por 0,80 m de altura, com pilaretes de concreto entre as peças.",
     mainImage: "/images/grades-balaustres-real.jpeg",
     gallery: [
       {
         src: "/images/grades-balaustres-real.jpeg",
-        alt: "Balaústres pré-moldados instalados em sacada",
-        caption: "Produto instalado",
+        alt: "Grade chanfrada de concreto instalada em fechamento decorativo",
+        caption: "Obra executada pela LB",
       },
       {
         src: "/images/grades-balaustres.jpg",
-        alt: "Detalhe de balaústres de concreto pré-moldado",
+        alt: "Detalhe da grade chanfrada de concreto pré-moldado",
         caption: "Detalhe da peça",
       },
     ],
     specifications: [
       { label: "Material", value: "Concreto pré-moldado" },
-      { label: "Modelos", value: "Sob consulta" },
-      { label: "Dimensão", value: "Sob consulta" },
+      { label: "Comprimento", value: "2,00 m por módulo" },
+      { label: "Altura", value: "0,80 m" },
+      { label: "Padrão", value: "Acabamento chanfrado" },
       { label: "Acabamento", value: "Concreto aparente, pintura opcional" },
-      { label: "Valor", value: "Orçamento por quantidade" },
+      { label: "Valor", value: "Orçamento por metragem ou quantidade" },
     ],
-    dimensions: ["Altura e diâmetro conforme o modelo"],
-    applications: ["Sacadas", "Muros", "Jardins", "Fechamentos decorativos"],
-    options: ["Diferentes modelos", "Peças de arremate"],
+    dimensions: ["Módulo de 2,00 m x 0,80 m", "Pilaretes entre os módulos"],
+    applications: ["Muros de frente", "Sacadas", "Jardins", "Fechamentos decorativos"],
+    options: ["Pintura sob consulta", "Pilaretes de concreto"],
     manufacturedByLB: true,
     featured: true,
-    relatedProducts: ["grade-de-cimento", "pingadeira-de-concreto", "guarda-corpo-galvanizado"],
+    relatedProducts: ["grade-trancinha", "grade-estrela", "pingadeira-de-concreto"],
     whatsappMessage:
-      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento de Balaústres Pré-Moldados. Posso informar a quantidade ou a metragem do local?",
-    quoteForm: "quantidade",
-    seoTitle: "Balaústre Pré-Moldado de Concreto | LB Pré-Moldados",
+      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento da Grade Chanfrada (módulo de 2,00 m x 0,80 m). Posso informar a metragem do local?",
+    quoteForm: "metragem",
+    seoTitle: "Grade Chanfrada de Concreto | LB Pré-Moldados",
     seoDescription:
-      "Balaústres pré-moldados de concreto para sacadas, muros e jardins. Fabricação própria LB Pré-Moldados. Consulte modelos.",
-    keywords: ["balaústre", "balaústre de concreto", "balaustre pré-moldado"],
+      "Grade chanfrada pré-moldada de concreto, módulo de 2,00 m x 0,80 m, para muros, sacadas e jardins. Fabricação própria LB Pré-Moldados.",
+    keywords: ["grade chanfrada", "grade de concreto chanfrada", "grade decorativa de cimento"],
   },
   {
     id: "grade-trancinha",
@@ -1363,7 +1364,7 @@ export const products: CatalogProduct[] = [
     options: ["Pintura sob consulta", "Pilaretes de concreto"],
     manufacturedByLB: true,
     featured: true,
-    relatedProducts: ["grade-de-cimento", "balaustre-pre-moldado", "pingadeira-de-concreto"],
+    relatedProducts: ["grade-estrela", "grade-chanfrada", "pingadeira-de-concreto"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento da Grade Trancinha (módulo de 2,00 m x 0,80 m). Posso informar a metragem do local?",
     quoteForm: "metragem",
@@ -1401,7 +1402,7 @@ export const products: CatalogProduct[] = [
     options: ["Pintura sob consulta", "Pilaretes de concreto", "Ornamentos em cores sob consulta"],
     manufacturedByLB: true,
     featured: true,
-    relatedProducts: ["grade-trancinha", "grade-de-cimento", "balaustre-pre-moldado"],
+    relatedProducts: ["grade-trancinha", "grade-chanfrada", "pingadeira-de-concreto"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento da Grade Estrela (módulo de 2,00 m x 0,80 m). Posso informar a metragem do local?",
     quoteForm: "metragem",
@@ -1409,47 +1410,6 @@ export const products: CatalogProduct[] = [
     seoDescription:
       "Grade estrela pré-moldada de concreto, módulo de 2,00 m x 0,80 m, para muros, jardins e varandas. Fabricação própria LB Pré-Moldados.",
     keywords: ["grade estrela", "grade de concreto estrela", "grade decorativa de cimento"],
-  },
-  {
-    id: "grade-cimento",
-    slug: "grade-de-cimento",
-    name: "Grade de Cimento",
-    category: "balaustres",
-    shortDescription: "Grades pré-moldadas para fechamento com ventilação e privacidade.",
-    description:
-      "Grades pré-moldadas de cimento utilizadas em fechamentos que precisam de ventilação e privacidade, como muros, áreas de serviço e vãos externos. Peças fabricadas na nossa fábrica com acabamento uniforme.",
-    mainImage: "/images/grades-balaustres.jpg",
-    gallery: [
-      {
-        src: "/images/grades-balaustres.jpg",
-        alt: "Grades de cimento pré-moldadas para fechamento",
-        caption: "Produto",
-      },
-      {
-        src: "/images/grades-balaustres-real.jpeg",
-        alt: "Fechamento com peças pré-moldadas instalado em obra",
-        caption: "Aplicação em obra",
-      },
-    ],
-    specifications: [
-      { label: "Material", value: "Concreto pré-moldado" },
-      { label: "Modelos", value: "Sob consulta" },
-      { label: "Dimensão", value: "Sob consulta" },
-      { label: "Valor", value: "Orçamento por quantidade" },
-    ],
-    dimensions: ["Dimensões conforme o modelo"],
-    applications: ["Muros", "Áreas de serviço", "Vãos de ventilação", "Fechamentos externos"],
-    options: ["Diferentes modelos e dimensões"],
-    manufacturedByLB: true,
-    featured: false,
-    relatedProducts: ["balaustre-pre-moldado", "pingadeira-de-concreto"],
-    whatsappMessage:
-      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento de Grades de Cimento. Posso informar a quantidade necessária?",
-    quoteForm: "quantidade",
-    seoTitle: "Grade de Cimento Pré-Moldada | LB Pré-Moldados",
-    seoDescription:
-      "Grades de cimento pré-moldadas para muros, áreas de serviço e fechamentos externos. Fabricação própria LB Pré-Moldados.",
-    keywords: ["grade de cimento", "grades pré-moldadas", "grade de concreto"],
   },
 
   /* ----------------------------- OUTROS ARTEFATOS ----------------------------- */
@@ -1794,7 +1754,7 @@ const searchAliases: Record<string, string[]> = {
   reservatorio: ["base-caixa-dagua", "cruzeta-pre-moldada", "kit-base-e-cruzeta"],
   cruzeta: ["cruzeta-pre-moldada", "base-caixa-dagua", "kit-base-e-cruzeta"],
   pe: ["cruzeta-pre-moldada"],
-  muro: ["pingadeira-de-concreto", "grade-de-cimento", "balaustre-pre-moldado"],
+  muro: ["pingadeira-de-concreto", "grade-chanfrada", "grade-trancinha"],
   capa: ["pingadeira-de-concreto"],
   porcelanato: ["revestimento-de-escada-em-porcelanato"],
   granito: ["revestimento-de-escada-em-porcelanato"],
@@ -1809,8 +1769,11 @@ const searchAliases: Record<string, string[]> = {
   led: ["gesso-drywall-com-led", "escada-de-alvenaria"],
   calcada: ["piso-para-calcada", "piso-de-concreto"],
   piso: ["piso-para-calcada", "piso-de-concreto"],
-  balaustre: ["balaustre-pre-moldado", "grade-de-cimento"],
-  grade: ["grade-de-cimento", "balaustre-pre-moldado", "base-caixa-dagua"],
+  balaustre: ["grade-chanfrada", "grade-trancinha", "grade-estrela"],
+  grade: ["grade-chanfrada", "grade-trancinha", "grade-estrela"],
+  chanfrada: ["grade-chanfrada"],
+  trancinha: ["grade-trancinha"],
+  estrela: ["grade-estrela"],
   h8: ["laje-trelicada-h8"],
   h12: ["laje-trelicada-h12"],
   h16: ["laje-trelicada-h16"],

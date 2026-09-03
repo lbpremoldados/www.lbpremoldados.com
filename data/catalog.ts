@@ -206,7 +206,7 @@ export const products: CatalogProduct[] = [
     ],
     manufacturedByLB: true,
     featured: true,
-    relatedProducts: ["corrimao-galvanizado", "revestimento-de-escada-em-porcelanato", "escada-com-patamar"],
+    relatedProducts: ["corrimao-galvanizado", "revestimento-de-escada-em-porcelanato", "escada-pre-moldada-em-l"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento para uma Escada Pré-Moldada Reta. Gostaria de enviar as medidas e fotos do local.",
     quoteForm: "escada",
@@ -254,7 +254,7 @@ export const products: CatalogProduct[] = [
     options: ["Com ou sem patamar", "Corrimão galvanizado, inox ou vidro", "Revestimento sob consulta"],
     manufacturedByLB: true,
     featured: true,
-    relatedProducts: ["escada-com-patamar", "guarda-corpo-com-vidro", "revestimento-de-escada-em-porcelanato"],
+    relatedProducts: ["escada-pre-moldada-em-u", "guarda-corpo-com-vidro", "revestimento-de-escada-em-porcelanato"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento para uma Escada Pré-Moldada em L. Gostaria de enviar as medidas e fotos do local.",
     quoteForm: "escada",
@@ -395,53 +395,6 @@ export const products: CatalogProduct[] = [
     seoDescription:
       "Escada caracol para espaços reduzidos, executada com diâmetro conforme o projeto. Orçamento personalizado com a LB Pré-Moldados.",
     keywords: ["escada caracol", "escada caracol de concreto", "escada helicoidal"],
-  },
-  {
-    id: "escada-patamar",
-    slug: "escada-com-patamar",
-    name: "Escada com Patamar",
-    category: "escadas",
-    subcategory: "Escadas pré-moldadas",
-    shortDescription: "Lances divididos por patamar intermediário, mais conforto na subida.",
-    description:
-      "O patamar divide a escada em lances menores, deixando a subida mais confortável e permitindo mudança de direção. É a configuração indicada para alturas piso a piso maiores. Fabricada em concreto pré-moldado conforme as medidas da obra.",
-    mainImage: "/images/catalogo/escada-patamar.png",
-    gallery: [
-      {
-        src: "/images/catalogo/escada-patamar.png",
-        alt: "Escada pré-moldada com patamar intermediário em concreto",
-        caption: "Produto",
-      },
-      {
-        src: "/images/escada-marmore-jardim-real.jpeg",
-        alt: "Escada com acabamento em mármore e jardim executada pela LB",
-        caption: "Resultado final",
-      },
-      {
-        src: "/images/escada-colorida-vidro-real.jpeg",
-        alt: "Escada com degraus coloridos e guarda-corpo em vidro",
-        caption: "Acabamento com guarda-corpo",
-      },
-    ],
-    specifications: [
-      { label: "Tipo", value: "Solução pré-moldada de concreto" },
-      { label: "Configuração", value: "Lances divididos por patamar" },
-      { label: "Medidas", value: "Conforme projeto" },
-      { label: "Valor", value: "Orçamento personalizado" },
-    ],
-    dimensions: ["Dimensão do patamar conforme o vão disponível"],
-    applications: ESCADA_APLICACOES,
-    options: ["Patamar intermediário", "Corrimão e guarda-corpo", "Revestimento sob consulta"],
-    manufacturedByLB: true,
-    featured: false,
-    relatedProducts: ["escada-pre-moldada-em-l", "escada-pre-moldada-em-u", "guarda-corpo-galvanizado"],
-    whatsappMessage:
-      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento para uma Escada com Patamar. Gostaria de enviar as medidas e fotos do local.",
-    quoteForm: "escada",
-    seoTitle: "Escada com Patamar Pré-Moldada | LB Pré-Moldados",
-    seoDescription:
-      "Escada pré-moldada com patamar intermediário, fabricada em concreto conforme a altura piso a piso da sua obra.",
-    keywords: ["escada com patamar", "escada pré-moldada com patamar"],
   },
   {
     id: "escada-viga-central",
@@ -1008,7 +961,7 @@ export const products: CatalogProduct[] = [
     manufacturedByLB: false,
     serviceByLB: true,
     featured: false,
-    relatedProducts: ["corrimao-galvanizado", "guarda-corpo-com-vidro", "escada-com-patamar"],
+    relatedProducts: ["corrimao-galvanizado", "guarda-corpo-com-vidro", "escada-pre-moldada-em-l"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento de Guarda-Corpo Galvanizado. Posso informar os metros aproximados ou enviar fotos do local?",
     quoteForm: "metragem",
@@ -1787,7 +1740,7 @@ const searchAliases: Record<string, string[]> = {
   h16: ["laje-trelicada-h16"],
   caracol: ["escada-caracol"],
   helicoidal: ["escada-caracol"],
-  patamar: ["escada-com-patamar", "escada-pre-moldada-em-l", "escada-pre-moldada-em-u"],
+  patamar: ["escada-pre-moldada-em-l", "escada-pre-moldada-em-u"],
 }
 
 export function searchProducts(query: string, categorySlug?: string) {

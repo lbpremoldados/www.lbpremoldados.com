@@ -129,13 +129,13 @@ export const categories: CatalogCategory[] = [
   },
   {
     slug: "balaustres",
-    name: "Balaústres e Grades de Cimento",
-    menuName: "Balaústres",
-    headline: "Peças decorativas com resistência de concreto.",
+    name: "Grades de Cimento",
+    menuName: "Grades",
+    headline: "Fechamentos decorativos com resistência de concreto.",
     description:
-      "Balaústres e grades pré-moldadas de cimento para sacadas, muros, jardins e fechamentos.",
+      "Grades pré-moldadas de cimento para sacadas, muros, jardins e fechamentos.",
     image: "/images/grades-balaustres-real.jpeg",
-    keywords: ["balaústre de concreto", "grade de cimento", "grades pré-moldadas"],
+    keywords: ["grade de cimento", "grades pré-moldadas", "grade de concreto"],
   },
   {
     slug: "outros-artefatos",
@@ -542,7 +542,7 @@ export const products: CatalogProduct[] = [
     category: "lajes",
     shortDescription: "Laje treliçada de altura 8 cm, fabricada conforme o projeto.",
     description:
-      "Laje treliçada com altura de 8 cm, fabricada na nossa fábrica com armadura treliçada e enchimento conforme o projeto. Utilizada em obras residenciais e comerciais, é entregue com comprimento definido de acordo com o vão informado.",
+      "Laje treliçada com altura de 8 cm, fabricada na nossa fábrica com armadura treli��ada e enchimento conforme o projeto. Utilizada em obras residenciais e comerciais, é entregue com comprimento definido de acordo com o vão informado.",
     mainImage: "/images/lajes-trelicadas-real.jpeg",
     gallery: [
       {

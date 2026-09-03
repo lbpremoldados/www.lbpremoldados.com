@@ -1449,6 +1449,44 @@ export const products: CatalogProduct[] = [
       "Grade galinho pré-moldada de concreto, módulo de 2,00 m x 0,80 m, com padrão rústico de galhos para muros e jardins. Fabricação própria LB Pré-Moldados.",
     keywords: ["grade galinho", "grade de concreto galinho", "grade rústica de cimento"],
   },
+  {
+    id: "grade-cerquinha",
+    slug: "grade-cerquinha",
+    name: "Grade Cerquinha",
+    category: "balaustres",
+    shortDescription: "Cerca baixa de concreto no estilo palito para jardins e frentes.",
+    description:
+      "A Grade Cerquinha é uma cerca baixa pré-moldada de concreto no estilo palito, com ripas verticais espaçadas e travessas horizontais. Tem um visual leve e decorativo, ideal para delimitar jardins, gramados, canteiros e frentes de terreno sem fechar a vista. Cada módulo tem 2,00 m de comprimento por 0,90 m de altura, com pilaretes de concreto entre as peças.",
+    mainImage: "/images/catalogo/grade-cerquinha-real.jpeg",
+    gallery: [
+      {
+        src: "/images/catalogo/grade-cerquinha-real.jpeg",
+        alt: "Grade cerquinha branca de concreto estilo palito delimitando jardim com palmeiras",
+        caption: "Obra executada pela LB",
+      },
+    ],
+    specifications: [
+      { label: "Material", value: "Concreto pré-moldado" },
+      { label: "Comprimento", value: "2,00 m por módulo" },
+      { label: "Altura", value: "0,90 m" },
+      { label: "Padrão", value: "Estilo palito (cerquinha)" },
+      { label: "Acabamento", value: "Concreto aparente, pintura opcional" },
+      { label: "Valor", value: "Orçamento por metragem ou quantidade" },
+    ],
+    dimensions: ["Módulo de 2,00 m x 0,90 m", "Pilaretes entre os módulos"],
+    applications: ["Jardins", "Gramados", "Canteiros", "Frentes de terreno"],
+    options: ["Pintura sob consulta", "Pilaretes de concreto"],
+    manufacturedByLB: true,
+    featured: true,
+    relatedProducts: ["grade-trancinha", "grade-galinho", "grade-estrela"],
+    whatsappMessage:
+      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento da Grade Cerquinha (módulo de 2,00 m x 0,90 m). Posso informar a metragem do local?",
+    quoteForm: "metragem",
+    seoTitle: "Grade Cerquinha de Concreto | LB Pré-Moldados",
+    seoDescription:
+      "Grade cerquinha pré-moldada de concreto, módulo de 2,00 m x 0,90 m, estilo palito para jardins e frentes. Fabricação própria LB Pré-Moldados.",
+    keywords: ["grade cerquinha", "cerquinha de concreto", "cerca de jardim de cimento"],
+  },
 
   /* ----------------------------- OUTROS ARTEFATOS ----------------------------- */
   {
@@ -1807,12 +1845,14 @@ const searchAliases: Record<string, string[]> = {
   led: ["gesso-drywall-com-led", "escada-de-alvenaria"],
   calcada: ["piso-para-calcada", "piso-de-concreto"],
   piso: ["piso-para-calcada", "piso-de-concreto"],
-  balaustre: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho"],
-  grade: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho"],
+  balaustre: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho", "grade-cerquinha"],
+  grade: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho", "grade-cerquinha"],
   chanfrada: ["grade-chanfrada"],
   trancinha: ["grade-trancinha"],
   estrela: ["grade-estrela"],
   galinho: ["grade-galinho"],
+  cerquinha: ["grade-cerquinha"],
+  cerca: ["grade-cerquinha"],
   h8: ["laje-trelicada-h8"],
   h12: ["laje-trelicada-h12"],
   h16: ["laje-trelicada-h16"],

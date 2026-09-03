@@ -84,7 +84,7 @@ export const categories: CatalogCategory[] = [
     headline: "Peças de concreto para áreas externas e acabamento da obra.",
     description:
       "Pisos, placas e artefatos de concreto fabricados na nossa fábrica para calçadas, acessos e áreas externas.",
-    image: "/images/catalogo/piso-calcada.png",
+    image: "/images/catalogo/capa-pisos-intertravado.jpg",
     keywords: ["piso de concreto", "artefatos de concreto", "piso para calçada"],
   },
   {

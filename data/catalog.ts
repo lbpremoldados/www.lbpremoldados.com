@@ -320,12 +320,12 @@ export const products: CatalogProduct[] = [
     shortDescription: "Lance reto com giro curto na base, para acessos com pouco espaço.",
     description:
       "A escada tipo J combina um lance reto com um giro curto na parte inferior, solução muito utilizada quando o espaço de chegada é reduzido. Fabricada em concreto pré-moldado conforme as medidas da obra.",
-    mainImage: "/images/catalogo/escada-j.png",
+    mainImage: "/images/catalogo/escada-j-real.png",
     gallery: [
       {
-        src: "/images/catalogo/escada-j.png",
-        alt: "Escada pré-moldada tipo J em concreto com giro na base",
-        caption: "Produto",
+        src: "/images/catalogo/escada-j-real.png",
+        alt: "Escada pré-moldada tipo J com lance reto flutuante e giro em curva na base, executada pela LB",
+        caption: "Obra executada pela LB",
       },
       {
         src: "/images/escada-corrimao-tubular.jpeg",
@@ -1588,7 +1588,7 @@ export const stairHighlights: StairHighlight[] = [
   {
     label: "Tipo J",
     slug: "escada-tipo-j",
-    image: "/images/catalogo/escada-j.png",
+    image: "/images/catalogo/escada-j-real.png",
     alt: "Escada pré-moldada tipo J",
   },
   {

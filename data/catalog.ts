@@ -1373,6 +1373,44 @@ export const products: CatalogProduct[] = [
     keywords: ["grade trancinha", "grade de concreto trancinha", "grade vazada de cimento"],
   },
   {
+    id: "grade-estrela",
+    slug: "grade-estrela",
+    name: "Grade Estrela",
+    category: "balaustres",
+    shortDescription: "Grade decorativa de concreto com padrão geométrico e ornamentos de estrela.",
+    description:
+      "A Grade Estrela é uma grade pré-moldada de concreto com padrão geométrico retangular vazado e ornamentos em formato de estrela/flor no topo. É indicada para fechamento decorativo de muros de frente, jardins e varandas, unindo ventilação, resistência e um acabamento elegante. Cada módulo tem 2,00 m de comprimento por 0,80 m de altura, com pilaretes de concreto entre as peças.",
+    mainImage: "/images/catalogo/grade-estrela-real.jpg",
+    gallery: [
+      {
+        src: "/images/catalogo/grade-estrela-real.jpg",
+        alt: "Grade estrela de concreto branca com ornamentos florais instalada em jardim residencial",
+        caption: "Obra executada pela LB",
+      },
+    ],
+    specifications: [
+      { label: "Material", value: "Concreto pré-moldado" },
+      { label: "Comprimento", value: "2,00 m por módulo" },
+      { label: "Altura", value: "0,80 m" },
+      { label: "Padrão", value: "Geométrico vazado com ornamento de estrela" },
+      { label: "Acabamento", value: "Concreto aparente, pintura opcional" },
+      { label: "Valor", value: "Orçamento por metragem ou quantidade" },
+    ],
+    dimensions: ["Módulo de 2,00 m x 0,80 m", "Pilaretes entre os módulos"],
+    applications: ["Muros de frente", "Jardins", "Varandas", "Fechamentos decorativos"],
+    options: ["Pintura sob consulta", "Pilaretes de concreto", "Ornamentos em cores sob consulta"],
+    manufacturedByLB: true,
+    featured: true,
+    relatedProducts: ["grade-trancinha", "grade-de-cimento", "balaustre-pre-moldado"],
+    whatsappMessage:
+      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento da Grade Estrela (módulo de 2,00 m x 0,80 m). Posso informar a metragem do local?",
+    quoteForm: "metragem",
+    seoTitle: "Grade Estrela de Concreto | LB Pré-Moldados",
+    seoDescription:
+      "Grade estrela pré-moldada de concreto, módulo de 2,00 m x 0,80 m, para muros, jardins e varandas. Fabricação própria LB Pré-Moldados.",
+    keywords: ["grade estrela", "grade de concreto estrela", "grade decorativa de cimento"],
+  },
+  {
     id: "grade-cimento",
     slug: "grade-de-cimento",
     name: "Grade de Cimento",

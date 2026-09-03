@@ -1487,6 +1487,44 @@ export const products: CatalogProduct[] = [
       "Grade cerquinha pré-moldada de concreto, módulo de 2,00 m x 0,90 m, estilo palito para jardins e frentes. Fabricação própria LB Pré-Moldados.",
     keywords: ["grade cerquinha", "cerquinha de concreto", "cerca de jardim de cimento"],
   },
+  {
+    id: "grade-tabua",
+    slug: "grade-tabua",
+    name: "Grade Tábua",
+    category: "balaustres",
+    shortDescription: "Grade robusta de concreto com tábuas cruzadas na diagonal.",
+    description:
+      "A Grade Tábua é uma grade pré-moldada de concreto formada por tábuas largas cruzadas na diagonal, criando um padrão em X vazado de visual robusto e rústico. É indicada para o fechamento de muros de frente, chácaras e áreas externas, unindo ventilação, resistência e presença. Cada módulo tem 2,00 m de comprimento por 1,00 m de altura, com pilaretes de concreto entre as peças.",
+    mainImage: "/images/catalogo/grade-tabua-real.jpeg",
+    gallery: [
+      {
+        src: "/images/catalogo/grade-tabua-real.jpeg",
+        alt: "Grade tábua de concreto branca com tábuas cruzadas sobre muro terracota",
+        caption: "Obra executada pela LB",
+      },
+    ],
+    specifications: [
+      { label: "Material", value: "Concreto pré-moldado" },
+      { label: "Comprimento", value: "2,00 m por módulo" },
+      { label: "Altura", value: "1,00 m" },
+      { label: "Padrão", value: "Tábuas cruzadas na diagonal" },
+      { label: "Acabamento", value: "Concreto aparente, pintura opcional" },
+      { label: "Valor", value: "Orçamento por metragem ou quantidade" },
+    ],
+    dimensions: ["Módulo de 2,00 m x 1,00 m", "Pilaretes entre os módulos"],
+    applications: ["Muros de frente", "Chácaras", "Áreas externas", "Fechamentos decorativos"],
+    options: ["Pintura sob consulta", "Pilaretes de concreto"],
+    manufacturedByLB: true,
+    featured: true,
+    relatedProducts: ["grade-trancinha", "grade-galinho", "grade-cerquinha"],
+    whatsappMessage:
+      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento da Grade Tábua (módulo de 2,00 m x 1,00 m). Posso informar a metragem do local?",
+    quoteForm: "metragem",
+    seoTitle: "Grade Tábua de Concreto | LB Pré-Moldados",
+    seoDescription:
+      "Grade tábua pré-moldada de concreto, módulo de 2,00 m x 1,00 m, com tábuas cruzadas para muros e chácaras. Fabricação própria LB Pré-Moldados.",
+    keywords: ["grade tábua", "grade de concreto tábua", "grade cruzada de cimento"],
+  },
 
   /* ----------------------------- OUTROS ARTEFATOS ----------------------------- */
   {
@@ -1845,14 +1883,15 @@ const searchAliases: Record<string, string[]> = {
   led: ["gesso-drywall-com-led", "escada-de-alvenaria"],
   calcada: ["piso-para-calcada", "piso-de-concreto"],
   piso: ["piso-para-calcada", "piso-de-concreto"],
-  balaustre: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho", "grade-cerquinha"],
-  grade: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho", "grade-cerquinha"],
+  balaustre: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho", "grade-cerquinha", "grade-tabua"],
+  grade: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho", "grade-cerquinha", "grade-tabua"],
   chanfrada: ["grade-chanfrada"],
   trancinha: ["grade-trancinha"],
   estrela: ["grade-estrela"],
   galinho: ["grade-galinho"],
   cerquinha: ["grade-cerquinha"],
   cerca: ["grade-cerquinha"],
+  tabua: ["grade-tabua"],
   h8: ["laje-trelicada-h8"],
   h12: ["laje-trelicada-h12"],
   h16: ["laje-trelicada-h16"],

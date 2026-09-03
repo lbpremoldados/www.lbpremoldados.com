@@ -671,12 +671,12 @@ export const products: CatalogProduct[] = [
     shortDescription: "Placas de concreto para calçadas e acessos externos.",
     description:
       "Placas de concreto pré-moldadas para calçadas, acessos e passagens externas. Fabricadas na nossa fábrica com acabamento uniforme e resistência para tráfego de pedestres. Quantidade e medidas conforme a metragem da obra.",
-    mainImage: "/images/catalogo/piso-calcada.png",
+    mainImage: "/images/catalogo/pisos-calcadas-tipos.jpeg",
     gallery: [
       {
-        src: "/images/catalogo/piso-calcada.png",
-        alt: "Placas de concreto pré-moldadas instaladas em calçada residencial",
-        caption: "Produto instalado",
+        src: "/images/catalogo/pisos-calcadas-tipos.jpeg",
+        alt: "Tabela de tipos e padrões de pisos para calçadas: tátil, intertravado, português, espinha de peixe e outros",
+        caption: "Tipos e padrões disponíveis",
       },
       {
         src: "/images/hero-team.jpg",
@@ -696,7 +696,7 @@ export const products: CatalogProduct[] = [
     options: ["Quantidade sob consulta"],
     manufacturedByLB: true,
     featured: false,
-    relatedProducts: ["piso-de-concreto", "artefato-personalizado", "pingadeira-de-concreto"],
+    relatedProducts: ["piso-de-concreto", "guia-meio-fio", "pingadeira-de-concreto"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento de Piso para Calçada. Posso informar a metragem aproximada?",
     quoteForm: "quantidade",
@@ -713,12 +713,12 @@ export const products: CatalogProduct[] = [
     shortDescription: "Peças de concreto para áreas externas, garagens e quintais.",
     description:
       "Peças de concreto pré-moldadas para pisos externos, garagens, quintais e áreas de circulação. Fabricadas com acabamento uniforme e boa resistência ao uso contínuo. Medidas e quantidade definidas conforme a área a ser coberta.",
-    mainImage: "/images/catalogo/piso-calcada.png",
+    mainImage: "/images/catalogo/capa-pisos-intertravado.jpg",
     gallery: [
       {
-        src: "/images/catalogo/piso-calcada.png",
-        alt: "Piso de concreto pré-moldado instalado em área externa",
-        caption: "Produto instalado",
+        src: "/images/catalogo/capa-pisos-intertravado.jpg",
+        alt: "Piso intertravado de concreto em padrão espinha de peixe instalado em área externa",
+        caption: "Piso intertravado instalado",
       },
       {
         src: "/images/diferencial-1.jpg",
@@ -738,7 +738,7 @@ export const products: CatalogProduct[] = [
     options: ["Quantidade sob consulta"],
     manufacturedByLB: true,
     featured: false,
-    relatedProducts: ["piso-para-calcada", "artefato-personalizado", "pingadeira-de-concreto"],
+    relatedProducts: ["piso-para-calcada", "guia-meio-fio", "pingadeira-de-concreto"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento de Piso de Concreto. Posso informar a área aproximada?",
     quoteForm: "quantidade",
@@ -748,19 +748,19 @@ export const products: CatalogProduct[] = [
     keywords: ["piso de concreto", "piso pré-moldado", "artefatos de concreto"],
   },
   {
-    id: "artefato-personalizado",
-    slug: "artefato-personalizado",
-    name: "Artefato de Concreto Personalizado",
+    id: "guia-meio-fio",
+    slug: "guia-meio-fio",
+    name: "Guia e Meio-Fio",
     category: "pisos-e-artefatos",
-    shortDescription: "Peças de concreto fabricadas conforme o desenho e a medida da sua obra.",
+    shortDescription: "Guias e meios-fios de concreto para delimitar ruas, calçadas e canteiros.",
     description:
-      "Fabricamos peças de concreto personalizadas conforme o desenho, a medida e a aplicação necessária na obra. Envie a referência, o croqui ou a foto da peça para nossa equipe avaliar a viabilidade de fabricação.",
-    mainImage: "/images/hero-team.jpg",
+      "Guias e meios-fios pré-moldados de concreto para delimitar ruas, calçadas, acessos e canteiros. Fabricados na nossa fábrica com acabamento uniforme e resistência para uso urbano e residencial. Medidas e quantidade conforme a metragem da obra.",
+    mainImage: "/images/catalogo/guia-meio-fio.png",
     gallery: [
       {
-        src: "/images/hero-team.jpg",
-        alt: "Equipe uniformizada da LB Pré-Moldados movimentando peças de concreto na fábrica",
-        caption: "Fabricação na nossa fábrica",
+        src: "/images/catalogo/guia-meio-fio.png",
+        alt: "Guias e meios-fios de concreto pré-moldado instalados ao longo de calçada",
+        caption: "Guia / meio-fio instalado",
       },
       {
         src: "/images/diferencial-1.jpg",
@@ -769,24 +769,25 @@ export const products: CatalogProduct[] = [
       },
     ],
     specifications: [
-      { label: "Fabricação", value: "Sob desenho ou referência" },
-      { label: "Medidas", value: "Conforme necessidade da obra" },
-      { label: "Viabilidade", value: "Avaliada pela nossa equipe" },
-      { label: "Valor", value: "Orçamento personalizado" },
+      { label: "Material", value: "Concreto pré-moldado" },
+      { label: "Medidas", value: "Sob consulta" },
+      { label: "Aplicação", value: "Delimitação de ruas, calçadas e canteiros" },
+      { label: "Acabamento", value: "Concreto aparente" },
+      { label: "Valor", value: "Orçamento por metragem" },
     ],
-    dimensions: ["Definidas conforme o desenho enviado"],
-    applications: ["Obras residenciais", "Obras comerciais", "Projetos especiais"],
-    options: ["Envio de croqui ou foto de referência"],
+    dimensions: ["Medidas e comprimento sob consulta"],
+    applications: ["Ruas", "Calçadas", "Acessos", "Canteiros e jardins"],
+    options: ["Quantidade sob consulta"],
     manufacturedByLB: true,
     featured: false,
-    relatedProducts: ["piso-de-concreto", "pingadeira-de-concreto", "grade-chanfrada"],
+    relatedProducts: ["piso-de-concreto", "piso-para-calcada", "pingadeira-de-concreto"],
     whatsappMessage:
-      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de consultar a fabricação de um Artefato de Concreto Personalizado. Posso enviar o desenho e as medidas?",
-    quoteForm: "generico",
-    seoTitle: "Artefatos de Concreto Personalizados | LB Pré-Moldados",
+      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento de Guia e Meio-Fio. Posso informar a metragem aproximada?",
+    quoteForm: "metragem",
+    seoTitle: "Guia e Meio-Fio de Concreto | LB Pré-Moldados",
     seoDescription:
-      "Fabricação de artefatos de concreto personalizados conforme desenho e medidas da sua obra, com a LB Pré-Moldados.",
-    keywords: ["artefatos de concreto", "peça de concreto personalizada", "pré-moldado sob medida"],
+      "Guias e meios-fios pré-moldados de concreto para ruas, calçadas e canteiros. Fabricação própria LB Pré-Moldados. Consulte medidas.",
+    keywords: ["guia de concreto", "meio-fio", "meio fio de concreto", "guia meio-fio pré-moldado"],
   },
 
   /* ------------------------------- REVESTIMENTOS ------------------------------ */
@@ -1281,7 +1282,7 @@ export const products: CatalogProduct[] = [
     options: ["Quantidade por peça", "Cálculo por metragem do muro"],
     manufacturedByLB: true,
     featured: true,
-    relatedProducts: ["piso-para-calcada", "grade-chanfrada", "artefato-personalizado"],
+    relatedProducts: ["piso-para-calcada", "grade-chanfrada", "guia-meio-fio"],
     whatsappMessage:
       "Olá! Vim pelo site da LB Pré-Moldados e gostaria de consultar as Pingadeiras de Concreto para muro. Posso informar a quantidade ou a metragem do muro?",
     quoteForm: "quantidade",
@@ -1921,6 +1922,11 @@ const searchAliases: Record<string, string[]> = {
   led: ["gesso-drywall-com-led", "escada-de-alvenaria"],
   calcada: ["piso-para-calcada", "piso-de-concreto"],
   piso: ["piso-para-calcada", "piso-de-concreto"],
+  intertravado: ["piso-de-concreto", "piso-para-calcada"],
+  paver: ["piso-de-concreto", "piso-para-calcada"],
+  guia: ["guia-meio-fio"],
+  "meio-fio": ["guia-meio-fio"],
+  "meio fio": ["guia-meio-fio"],
   balaustre: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho", "grade-cerquinha", "grade-tabua", "grade-castelinho"],
   grade: ["grade-chanfrada", "grade-trancinha", "grade-estrela", "grade-galinho", "grade-cerquinha", "grade-tabua", "grade-castelinho"],
   chanfrada: ["grade-chanfrada"],

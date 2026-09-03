@@ -1335,6 +1335,44 @@ export const products: CatalogProduct[] = [
     keywords: ["balaústre", "balaústre de concreto", "balaustre pré-moldado"],
   },
   {
+    id: "grade-trancinha",
+    slug: "grade-trancinha",
+    name: "Grade Trancinha",
+    category: "balaustres",
+    shortDescription: "Grade decorativa de concreto com padrão trançado vazado.",
+    description:
+      "A Grade Trancinha é uma grade pré-moldada de concreto com o clássico padrão trançado vazado, formando losangos entrelaçados. É indicada para fechamento decorativo de muros de frente, jardins e escadarias, unindo ventilação, resistência e um visual elegante. Cada módulo tem 2,00 m de comprimento por 0,80 m de altura, com pilaretes de concreto entre as peças.",
+    mainImage: "/images/catalogo/grade-trancinha-real.webp",
+    gallery: [
+      {
+        src: "/images/catalogo/grade-trancinha-real.webp",
+        alt: "Grade trancinha de concreto branca instalada em jardim e escadaria residencial",
+        caption: "Obra executada pela LB",
+      },
+    ],
+    specifications: [
+      { label: "Material", value: "Concreto pré-moldado" },
+      { label: "Comprimento", value: "2,00 m por módulo" },
+      { label: "Altura", value: "0,80 m" },
+      { label: "Padrão", value: "Trançado vazado (trancinha)" },
+      { label: "Acabamento", value: "Concreto aparente, pintura opcional" },
+      { label: "Valor", value: "Orçamento por metragem ou quantidade" },
+    ],
+    dimensions: ["Módulo de 2,00 m x 0,80 m", "Pilaretes entre os módulos"],
+    applications: ["Muros de frente", "Jardins", "Escadarias", "Fechamentos decorativos"],
+    options: ["Pintura sob consulta", "Pilaretes de concreto"],
+    manufacturedByLB: true,
+    featured: true,
+    relatedProducts: ["grade-de-cimento", "balaustre-pre-moldado", "pingadeira-de-concreto"],
+    whatsappMessage:
+      "Olá! Vim pelo site da LB Pré-Moldados e gostaria de solicitar orçamento da Grade Trancinha (módulo de 2,00 m x 0,80 m). Posso informar a metragem do local?",
+    quoteForm: "metragem",
+    seoTitle: "Grade Trancinha de Concreto | LB Pré-Moldados",
+    seoDescription:
+      "Grade trancinha pré-moldada de concreto, módulo de 2,00 m x 0,80 m, para muros, jardins e escadarias. Fabricação própria LB Pré-Moldados.",
+    keywords: ["grade trancinha", "grade de concreto trancinha", "grade vazada de cimento"],
+  },
+  {
     id: "grade-cimento",
     slug: "grade-de-cimento",
     name: "Grade de Cimento",

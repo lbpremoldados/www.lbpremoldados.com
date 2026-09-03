@@ -2,7 +2,6 @@ import { Header } from "@/components/header"
 import { Hero } from "@/components/hero"
 import { Benefits } from "@/components/benefits"
 import { EmotionalSection } from "@/components/emotional-section"
-import { Services } from "@/components/services"
 import { Diferenciais } from "@/components/diferenciais"
 import { Gallery } from "@/components/gallery"
 import { About } from "@/components/about"
@@ -19,7 +18,6 @@ export default function Page() {
         <Hero />
         <Benefits />
         <EmotionalSection />
-        <Services />
         <CatalogTeaser />
         <Diferenciais />
         <Gallery />

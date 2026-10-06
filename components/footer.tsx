@@ -82,11 +82,6 @@ export function Footer() {
                   Cruzeta (pés da base)
                 </span>
               </li>
-              <li>
-                <span className="text-sm text-muted-foreground">
-                  Gesso Drywall com LED
-                </span>
-              </li>
             </ul>
           </div>
 

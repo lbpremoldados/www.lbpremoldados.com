@@ -33,8 +33,8 @@ export function EmotionalSection() {
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 max-w-3xl mx-auto">
             <div className="relative aspect-[4/5] overflow-hidden rounded-sm ring-1 ring-primary/20">
               <Image
-                src="/images/instalacao-1.jpg"
-                alt="Funcionário da LB Pré-Moldados realizando a instalação em obra"
+                src="/images/sua-obra-comeca.jpg"
+                alt="Cliente acessando o site da LB Pré-Moldados no notebook: Sua obra começa com uma escolha. Sua história ganha estrutura com a LB."
                 fill
                 className="object-cover"
               />

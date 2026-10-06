@@ -11,7 +11,8 @@ const services = [
   },
   {
     title: "Escadas Pré-moldadas",
-    description: "Escadas pré-moldadas de todos os modelos com corrimão tubular galvanizado.",
+    description:
+      "Modelos: Reta, Caracol, em U, em Jota, Viga Central e em L. Todos com corrimão tubular galvanizado.",
     images: ["/images/escada-corrimao-tubular.jpeg"],
   },
   {

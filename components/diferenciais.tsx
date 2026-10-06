@@ -54,8 +54,9 @@ export function Diferenciais() {
             </span>
             <div className="h-px w-12 bg-primary" />
           </div>
-          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground text-balance">
-            Muito mais do que estrutura. É a junção de tudo que importa.
+          <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl text-foreground text-balance max-w-5xl mx-auto">
+            A qualidade começa na matéria-prima e ganha forma nas mãos de quem conhece o
+            concreto, o ferro e a responsabilidade de entregar qualidade.
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto">
             Qualidade, segurança, estética e conforto reunidos em cada projeto há mais de
@@ -64,20 +65,13 @@ export function Diferenciais() {
         </div>
 
         {/* Photos */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6 mb-16 max-w-4xl mx-auto">
+        <div className="mb-16 max-w-md mx-auto">
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm ring-1 ring-primary/20">
             <Image
-              src="/images/diferencial-1.jpg"
-              alt="Peças de concreto pré-moldado de alto padrão entregues em obra acabada"
+              src="/images/qualidade-materia-prima.jpg"
+              alt="Funcionário da LB Pré-Moldados com capacete laranja despejando brita na betoneira"
               fill
-              className="object-cover"
-            />
-          </div>
-          <div className="relative aspect-[4/5] overflow-hidden rounded-sm ring-1 ring-primary/20">
-            <Image
-              src="/images/diferencial-2.jpg"
-              alt="Funcionário da LB Pré-Moldados transportando peça personalizada de concreto"
-              fill
+              sizes="(max-width: 768px) 100vw, 448px"
               className="object-cover"
             />
           </div>
